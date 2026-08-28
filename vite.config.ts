@@ -208,8 +208,9 @@ function viteCustomErrorOverlay(): Plugin {
 }
 
 // https://vite.dev/config/
-export default defineConfig(() => {
-	base: '/cybernetic-nexus-portfolio/',
+export default defineConfig({
+  base: '/cybernetic-nexus-portfolio/',
+  plugins: [react(), tailwindcss()],
 	return {
 		customLogger: {
 			...defaultLogger,
