@@ -1,33 +1,61 @@
-# React + TypeScript + Vite
+# Maricar Joy M. Bigalme — Digital Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium, responsive digital portfolio showcasing my work as an **IT Professional**, **Elementor Specialist**, and **Customer Experience & Technical Support Engineer**.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Glassmorphic UI** — Modern dark theme with aurora gradients and neon glow effects
+- **Animated Interactions** — Smooth Framer Motion animations and particle effects
+- **Fully Responsive** — Optimized for mobile, tablet, and desktop
+- **Interactive Sections** — Hero, About, Experience, Skills, Projects, Certifications, Contact
+- **Resume Modal** — View and download resume directly
+- **Terminal Easter Egg** — Interactive command-line interface
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 18** + **TypeScript**
+- **Vite 6** — Lightning-fast development
+- **Tailwind CSS v4** — Utility-first styling
+- **Framer Motion** — Animations and transitions
+- **GSAP** — Advanced scroll animations
+- **Lucide React** — Beautiful icons
 
-## Expanding the ESLint configuration
+## 🎨 Color Palette
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Void Black** — `#080808`
+- **Deep Navy** — `#101725`
+- **Electric Blue** — `#4CC9F0`
+- **Cyan** — `#00F5FF`
+- **Purple** — `#8B5CF6`
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📁 Project Structure
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
+```
+src/
+├── components/          # UI Components
+│   ├── effects/         # Visual effects (particles, grids)
+│   └── ui/              # Reusable UI elements
+├── pages/               # Page components
+├── integrations/        # External service integrations
+└── theme.css            # Design tokens & theme
+```
+
+## 🚀 Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+## 📬 Contact
+
+- **Email:** maricarbigalmeeee@gmail.com
+- **LinkedIn:** [linkedin.com/in/maricar-bigalme-bba3332b0](https://www.linkedin.com/in/maricar-bigalme-bba3332b0)
+- **GitHub:** [github.com/MJ-Bigalme](https://github.com/MJ-Bigalme)
+
+---
+
+© 2025 Maricar Joy M. Bigalme. All rights reserved.
       tseslint.configs.stylisticTypeChecked,
 
       // Other configs...
