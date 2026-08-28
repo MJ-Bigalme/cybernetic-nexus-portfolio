@@ -211,13 +211,12 @@ function viteCustomErrorOverlay(): Plugin {
 export default defineConfig({
   base: '/cybernetic-nexus-portfolio/',
   plugins: [react(), tailwindcss()],
-	return {
-		customLogger: {
-			...defaultLogger,
-			info(msg: string) {
-				logger.info({ message: msg });
-			},
-		},
+  customLogger: {
+    ...defaultLogger,
+    info(msg: string) {
+      logger.info({ message: msg });
+    },
+  },
 		server: {
 			host: '0.0.0.0', // Bind to all interfaces (required for sandbox proxy access)
 			port: 5173,
