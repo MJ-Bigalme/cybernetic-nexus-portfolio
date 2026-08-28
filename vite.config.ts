@@ -217,6 +217,7 @@ export default defineConfig({
       logger.info({ message: msg });
     },
   },
+})
 		server: {
 			host: '0.0.0.0', // Bind to all interfaces (required for sandbox proxy access)
 			port: 5173,
